@@ -2,18 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {inputText} from './componets/inputText';
+import {InputText} from "./componets/inputText";
+import {Titulo} from "./componets/h1title";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+ //tag vazia se chama fragment
    <> 
-   <h1>OLÁ MUNDO</h1>
-   <inputText/>
-   <input type="text" name="nome" id="nome" placeholder='seu nome'/>
-   <br />
-   <input type="text" name="sobrenome" id="sobrenome" placeholder='seu sobrenome'/>
+  
    </>
   )
 }
